@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36401.2 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mordos.API", "Mordos.API\Mordos.API.csproj", "{09494C88-573A-7C71-DC03-749DEBCF8716}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mordos.AppHost", "Mordos.AppHost\Mordos.AppHost.csproj", "{71391135-2803-42E1-B1BA-1455FE3A19E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mordos.ServiceDefaults", "Mordos.ServiceDefaults\Mordos.ServiceDefaults.csproj", "{EF99234D-3FE5-6B80-8EFE-0E07656385D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utilities", "Utilities", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		.mcp.json = .mcp.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09494C88-573A-7C71-DC03-749DEBCF8716}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09494C88-573A-7C71-DC03-749DEBCF8716}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09494C88-573A-7C71-DC03-749DEBCF8716}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09494C88-573A-7C71-DC03-749DEBCF8716}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71391135-2803-42E1-B1BA-1455FE3A19E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71391135-2803-42E1-B1BA-1455FE3A19E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71391135-2803-42E1-B1BA-1455FE3A19E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71391135-2803-42E1-B1BA-1455FE3A19E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF99234D-3FE5-6B80-8EFE-0E07656385D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF99234D-3FE5-6B80-8EFE-0E07656385D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF99234D-3FE5-6B80-8EFE-0E07656385D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF99234D-3FE5-6B80-8EFE-0E07656385D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC59178A-2670-44D0-8539-595899E1292C}
+	EndGlobalSection
+EndGlobal
